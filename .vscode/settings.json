@@ -1,0 +1,46 @@
+{
+    "prisma.pinToPrisma6": true,
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "my_posgres",
+            "group": "my_posgres_group",
+            "database": "POSTGRES_DB",
+            "username": "root"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "mydb",
+            "database": "mydb",
+            "username": "root"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "authorization_db",
+            "name": "my_db",
+            "username": "root"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "my_bd",
+            "database": "authorization_db",
+            "username": "root"
+        }
+    ]
+}
