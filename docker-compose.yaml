@@ -19,11 +19,9 @@ services:
 
   redis:
     container_name: redis
-    image: redis:5.0
+    image: redis:6.0
     restart: always
-    environment:
-      - REDIS_PASSWORD=${REDIS_PASSWORD}
-    command: redis-server --requirepass ${REDIS_PASSWORD}
+    command: redis-server 
     ports:
       - "6379:6379"
     volumes:
